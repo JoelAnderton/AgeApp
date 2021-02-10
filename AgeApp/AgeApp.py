@@ -17,7 +17,7 @@ import math
 #bday = date(2012, 12, 7)
 
 quit = 'n'
-while quit == 'n':
+while quit != 'y':
     print('Mode 1 - Find Age (enter "1")')
     print('Mode 2 - Find Date Range of DOB given Age (enter "2")')
     mode = input('Which mode would you like: ')
