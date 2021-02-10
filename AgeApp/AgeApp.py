@@ -18,8 +18,10 @@ import math
 
 quit = 'n'
 while quit == 'n':
-    mode = input('''Mode 1 - Find Age (enter "1")
-Mode 2 - Find Date Range of DOB given Age (enter "2"): ''')
+    print('Mode 1 - Find Age (enter "1")')
+    print('Mode 2 - Find Date Range of DOB given Age (enter "2")')
+    mode = input('Which mode would you like: ')
+
     if mode == '1':
         date_entry = input('Enter a date of birth MM/DD/YYYY format: ')
         month, day, year = map(int, date_entry.split('/'))
