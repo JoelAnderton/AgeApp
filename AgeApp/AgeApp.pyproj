@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cfe4c51d-fb4f-49b4-9eb8-81f12c4c7643</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AgeApp.py</StartupFile>
+    <StartupFile>test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
