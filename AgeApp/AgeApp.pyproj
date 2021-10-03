@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>AgeApp</Name>
     <RootNamespace>AgeApp</RootNamespace>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
