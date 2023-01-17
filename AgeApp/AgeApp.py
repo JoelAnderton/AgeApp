@@ -7,7 +7,7 @@
 #
 # Updates: 2/10/2021 - added a new "mode": given the age, find
 #                    the possible date range for DOB
-#
+#          1/17/2023 - Made the age calculate to 3 decimal places
 ############################################################
 from datetime import date, datetime, timedelta
 import math 
@@ -37,7 +37,7 @@ while quit != 'y':
         days = (date2 - bday).days
 
         # Convert days to years
-        years = math.floor((days / 365.25)*10)/10
+        years = math.floor((days / 365.25)*1000)/1000
 
         # Print out number of years
         print(years)
