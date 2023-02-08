@@ -2,7 +2,6 @@
 # Python Age App
 # Created by: Joel Anderton
 # Date: 10/10/2017
-# Updated: 2/10/2021
 # Calculates a person's age to 1 decimal place
 #
 # Updates: 2/10/2021 - added a new "mode": given the age, find
